@@ -118,14 +118,14 @@
           <div class="post-box ms-3">
               <div class="card mb-3">
                   <div class="row g-0">
-                      <div class="col-lg-4 col-md-6">
+                      <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-offset="250">
                           <img src="admin_post/upload/<?php echo $row['Post_img'];?>" class="img-fluid rounded-start" alt="post-img">
                       </div>
                       <div class="col-lg-8 col-md-6">
                           <div class="card-body">
-                              <h2 class="post-title" data-aos="zoom-in" data-aos-offset="250"><?php echo $row['Title'];?></h2>
-                              <h4 class="ms-5" data-aos="zoom-in" data-aos-offset="250">by <?php echo $row['Category'];?></h4>
-                              <p class="post-text" data-aos="zoom-in" data-aos-offset="250" ><?php echo substr($row['Post_info'], 0, 400).".........";?></p>
+                              <h2 class="post-title" data-aos="zoom-in" data-aos-offset="250" style=" font-size: 3.5em;"><?php echo $row['Title'];?></h2>
+                              <h4 class="ms-5" data-aos="zoom-in" data-aos-offset="250" style=" font-size: 1em;" >by <?php echo $row['Category'];?></h4>
+                              <p class="post-text" data-aos="zoom-in" data-aos-offset="250" style=" font-size: 1.2em;" ><?php echo substr($row['Post_info'], 0, 400).".........";?></p>
                              <a id="button" class="read-more pull-right" data-aos="zoom-in-right" data-aos-offset="200" href='single.php?id=<?php echo $row['post_no'];?>'>read more</a>
                           </div>
                       </div>

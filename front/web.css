@@ -16,10 +16,6 @@
 }
 
 
-.card-body h3{
-  font-size: 1em;
-  color: grey;
-}
 .conatiner .card{
   border: 2px solid black;
   box-shadow: 2px 2px 4px white;
@@ -27,7 +23,7 @@
 
 .post-box:hover {
   border-radius: 10px;
-  box-shadow: 2px 2px  yellow;
+  box-shadow: 0px 0px 4px white;
   transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
