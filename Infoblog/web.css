@@ -1,0 +1,74 @@
+
+/* Add this CSS to your web.css file */
+
+/* Change anchor tag color to white */
+
+.navbar{
+  background-color: #004953;
+
+}
+.navbar-nav .nav-link {
+  font-family: cursive;
+  color: #002244;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+/* Add shadow to the anchor tags */
+.navbar-nav .nav-link {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Hover effect for color changing */
+.navbar-nav .nav-link:hover {
+  color: black; /* Change this to the desired hover color */
+  box-shadow: 2px 2px 4px #0a2351;
+  text-decoration : none; /* Remove underline on hover if needed */
+  transform : translateY(-3px);
+  transition: transform 0.3s ease;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+
+
+
+.post-section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #72A0C1;
+}
+
+.post-box {
+  margin-left: 100px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+  .post-box {
+      margin-left: 20px; /* Adjust the margin for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .post-title{
+    font-size: 1em;
+  }
+}
+
+.card{
+  background-color: #E1EBEE;
+}
+.conatiner .card{
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px black;
+}
+
+.post-box:hover {
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px black , 0px 2px 6px black;
+  transform : translateY(-12px);
+  transition: transform 0.3s ease;
+}
+
