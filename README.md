@@ -1,5 +1,6 @@
 ##### Eco Warriors
 
+![image](https://github.com/user-attachments/assets/a8f5ccbe-9772-4101-99fa-84fc965290c0)
 
 # PHP-Based Web Application
 
@@ -25,6 +26,7 @@ This project is a web application that allows users to interact with frontend co
   - **Data Handling**: PHP scripts perform necessary data processing and validation.
   - **Database Operations**: PHP interacts with the MySQL database to perform required operations.
   - **Response Handling**: The results of these operations are returned to the frontend, where they are displayed to the user.
+![image](https://github.com/user-attachments/assets/5cf61e5f-68b7-4ef1-9fa9-aca0c15c35bd)
 
 ### 4. CRUD Operations
 - **Database Interaction**: PHP scripts execute SQL queries to perform CRUD (Create, Read, Update, Delete) operations on the MySQL database.
@@ -53,8 +55,10 @@ This project is a web application that allows users to interact with frontend co
 4. **CRUD Operations**: PHP executes SQL queries to perform CRUD operations on the MySQL database.
 5. **Display Results**: The results of database operations are returned to the user via the frontend.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/php-web-app.git
+#### Feed BAck
+![image](https://github.com/user-attachments/assets/5cfaab4d-baf9-4bd4-b20d-fb5b8ee845a0)
+
+![image](https://github.com/user-attachments/assets/f3d702e9-3805-4f34-bfe6-e03e2fedb5a7)
+![image](https://github.com/user-attachments/assets/8e9372ce-288b-4318-8503-c22d8daf3a03)
+
